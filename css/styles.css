@@ -449,9 +449,6 @@ p {
   padding: 10px 28px 10px 42px;
   height: 50px;
   cursor: pointer;
-}
-
-.submit p {
   text-align: center;
   letter-spacing: 0.06em;
   font-weight: 700;
@@ -840,9 +837,6 @@ margin-top: 12px;
   color: var(--main-color);
   margin-top: 30px;
   cursor: pointer;
-}
-
-.form-send p {
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
