@@ -451,7 +451,7 @@ p {
   cursor: pointer;
 }
 
-.submit h3 {
+.submit p {
   text-align: center;
   letter-spacing: 0.06em;
   font-weight: 700;
@@ -465,11 +465,6 @@ display: flex;
 align-items: flex-end;
 gap: 12px;
 margin-top: 12px;
-}
-
-.newsletter-send {
-  display: flex;
-  align-items: center;
 }
 
 .newsletter label {
@@ -847,7 +842,7 @@ margin-top: 12px;
   cursor: pointer;
 }
 
-.form-send h3 {
+.form-send p {
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
