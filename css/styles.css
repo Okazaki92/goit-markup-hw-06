@@ -448,6 +448,7 @@ p {
   background-color: var(--point-color);
   padding: 10px 28px 10px 42px;
   height: 50px;
+  cursor: pointer;
 }
 
 .submit h3 {
