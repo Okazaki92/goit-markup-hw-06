@@ -842,6 +842,16 @@ margin-top: 12px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  transition-property: border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+
+.form-send:hover,
+.form-send:focus {
+  color: var(--point-color);
+  background-color: var(--main-color);
 }
 
 .form fieldset {
