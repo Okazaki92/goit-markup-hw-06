@@ -21,7 +21,7 @@
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>X</button>
             <h2>Zostaw swoje dane w formularzu poniżej</h2>
-            <form class="form">
+            <!-- <form class="form">
                 <fieldset class="user user-name">
                     <label for="user-name">Imię</label>
                     <svg>
@@ -56,6 +56,47 @@
                     </span>
                     <label for="user-checkbox">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.</label>    
                 </fieldset>
+                <button class="form-send">
+                    Wyślij
+                </button>
+            </form> -->
+            <form class="form">
+                <fieldset>
+                    <div class="user user-name">
+                    <label for="user-name">Imię</label>
+                    <svg>
+                        <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                    </svg>
+                    <input type="text" name="username" id="user-name">
+                </div>
+                <div class="user user-phone">
+                    <label for="user-phone">Telefon</label>
+                    <svg>
+                        <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                    </svg>
+                    <input type="tel" name="phone" id="user-phone">
+                </div>
+                <div class="user user-email">
+                    <label for="user-email">Email</label>
+                    <svg>
+                        <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                    </svg>
+                    <input type="email" name="email" id="user-email">
+                </div>
+                <div class="user-comment">
+                    <label for="user-comment">Komentarz</label>
+                    <textarea name="comment" id="user-comment" cols="52" rows="5" placeholder="Wprowadź tekst" ></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="user-checkbox" value="agree">
+                    <span class="checkmark">
+                        <svg>
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                    </span>
+                    <label for="user-checkbox">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.</label>    
+                </div>
+            </fieldset>
                 <button class="form-send">
                     Wyślij
                 </button>
