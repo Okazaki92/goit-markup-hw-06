@@ -720,10 +720,11 @@ margin-top: 12px;
   width: 400px;
 }
 
-.user:has(input:focus, input:hover) {
+.user:hover,
+.user:focus,
+.user svg:hover
+.user svg:focus {
   border-color: var(--point-color);
-}
-.user:has(input:focus, input:hover) svg{
   fill: var(--point-color);
 }
 
@@ -734,7 +735,6 @@ margin-top: 12px;
   padding: 12px 0 12px 12px;
   margin: 28px 0 20px;
   height: 120px;
-  width: -webkit-fill-available;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   transition-property: border-color;
@@ -766,7 +766,8 @@ margin-top: 12px;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.user-comment:has(textarea:focus, textarea:hover) {
+.user-comment:focus,
+.user-comment:hover {
   border-color: var(--point-color);
 }
 
@@ -776,7 +777,7 @@ margin-top: 12px;
   display: flex;
   align-items: center;
   gap: 7px;
-  margin: 0;
+  margin: 0 0 0 14px;
   padding: 0;
   transition-property: border-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -817,7 +818,7 @@ margin-top: 12px;
   height: 15px;
 }
 
-.checkbox:has(input:hover) .checkmark {
+.checkbox:hover .checkmark {
   border-color: var(--point-color);
 }
 
@@ -856,8 +857,7 @@ margin-top: 12px;
 
 .form fieldset {
   padding: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   border: none;
+  margin: 0;
+  width: 448px;
 }
