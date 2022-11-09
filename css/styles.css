@@ -720,10 +720,8 @@ margin-top: 12px;
   width: 400px;
 }
 
-.user:hover,
-.user:focus,
-.user svg:hover
-.user svg:focus {
+.user:focus-within,
+.user svg:focus-within {
   border-color: var(--point-color);
   fill: var(--point-color);
 }
@@ -756,6 +754,7 @@ margin-top: 12px;
   outline: 0;
   border: 0;
   padding: 0;
+  width: 424px;
 }
 
 .user-comment textarea::placeholder {
@@ -766,8 +765,7 @@ margin-top: 12px;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.user-comment:focus,
-.user-comment:hover {
+.user-comment:focus-within {
   border-color: var(--point-color);
 }
 
