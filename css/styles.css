@@ -816,10 +816,6 @@ margin-top: 12px;
   height: 15px;
 }
 
-.checkbox:hover .checkmark {
-  border-color: var(--point-color);
-}
-
 .checkbox input:checked~
 .checkmark{
   border: 0;
